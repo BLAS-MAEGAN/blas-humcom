@@ -34,7 +34,7 @@ ul li.active a{
     color: black;
 
 }
-.logo img{
+header .logo img{
     float: left;
     width: 150px;
     height: auto;
