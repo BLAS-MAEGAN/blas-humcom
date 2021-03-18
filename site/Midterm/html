@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BLACKVELVET.org</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+    <body>
+        <header>
+        <div class="main">
+            <div class="logo">
+                <img src="images/lg.png">
+            </div>
+            <ul>
+            
+                <li class="active"><a href="Exercise4.html">Home</a></li>
+                <li><a href="../First Grading/links(Exer4)/Gallery.html">Gallery</a></li>
+                <li><a href="../First Grading/links(Exer4)/About.html">About</a></li>
+                
+            </ul>
+        </div>
+        <div class="title">
+            <h1>BLACKVELVET.org</h1>
+        </div>
+
+        <div class="button">
+            <a href="https://www.vogue.fr/fashion/article/how-blackpink-became-the-biggest-k-pop-girl-band-in-the-world" class="btn">VOGUE</a>
+            <a href="https://people.com/music/blackpink-what-you-need-to-know-about-kpops-biggest-girl-group/" class="btn">People.com</a>
+        </div>
+
+    </body>

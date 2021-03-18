@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-right: 60px;
+    margin-left: 40px;
+    background-color: rgb(5, 5, 5);
+}
+header {
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    width: 200;
+    float: left;
+    border-color: 10px;
+    margin: 20px;
+}
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px rgb(250, 27, 150);
+    font-size: 23px;
+    float: right;
+    overflow: hidden;
+    background-color: rgb(3, 3, 3);
+    width: 50;
+    margin: 20px;
+    
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #0a0404;
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-style: 1px solid white;
+    transition: 0.3s ease
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: rgb(10, 6, 6);
+}
+
+section {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    padding: 90px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.section1 {
+    text-shadow: 2px 2px rgb(235, 29, 125);
+    text-align: justify;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../imgs/oof.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    color: rgb(255, 255, 255);
+    padding: 90px;
+    border: 1px solid rgb(255, 252, 252);
+}
+.section2 {
+    text-shadow: 2px 2px rgb(8, 6, 7);
+    text-align: justify;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../imgs/o.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    color: rgb(255, 255, 255);
+    padding: 80px;
+    border: 1px solid rgb(250, 250, 250);
+}
+
+.section3 {
+    text-shadow: 2px 2px rgb(146, 105, 10);
+    text-align: justify;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../imgs/id2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    color: rgb(255, 255, 255);
+    padding: 90px;
+    border: 1px solid rgb(252, 252, 252);
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+}
+footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px rgb(5, 5, 5);
+    background-image:  url(../imgs/que.png);
+    padding: 40px;
+    text-align: left;
+    margin-left: 20px;
+}
+footer a:hover{
+    background-color: whitesmoke;
+        color: rgb(247, 17, 208);
+}
+
+article {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 2px rgb(250, 250, 250);
+    clear: both;
+    border-color: rgb(12, 12, 12);
+    border-style: solid;
+    margin-left: 20px;
+    background-color: rgb(114, 105, 109);
+    margin-bottom: 20px;
+}
