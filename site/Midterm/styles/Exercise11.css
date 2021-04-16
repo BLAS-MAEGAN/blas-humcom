@@ -20,6 +20,7 @@ h1{
     margin: 0;
 }
 .section1{
+    margin-top: 10px;
     text-align: center;
     width: 100%;
     height: 120px;
@@ -30,7 +31,7 @@ h1{
     text-align: center;
     width: 98%;
     margin-left: 10px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 .section1 .content .nav{
     width: 100%;
@@ -121,6 +122,7 @@ h1{
     text-align: center;
 }
 .section3 .content .header .card{
+    width: 100%;
     background-color: #fffefe;
     padding: 10px 10px;
     border: 3px solid rgb(8, 8, 8);
@@ -141,36 +143,154 @@ h1{
     border: 3px solid rgb(8, 8, 8);
     background-color:  #999898;
 }
-.section3 .content2{
+.section3 .b1{
     text-align: center;
     width: 100%;
     margin-top: 15px;
+    }
+.section3 .b1 .box1{
+    width: 100%;
+    text-align: center;
+    }
+.section3 .b1 .box1 .card{
+    width: 100%;
+    height: 60px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 3px solid rgb(8, 8, 8);
+    }
+.section3 .b2{
+    float: left;
+    text-align: center;
+    width: 101%;
+    margin-top: 40px;
 }
-.section3 .content2 .article{
+.section3 .b2 .box2{
+    width: 99%;
+    text-align: center;
+}
+.section3 .b2 .box2 .card{
+    margin-right: 29px;
+    height: 60px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 3px solid rgb(8, 8, 8);
+}
+
+.section3 .b3{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+.section3 .b3 .box3{
     width: 100%;
     text-align: center;
 }
+.section3 .b3 .box3 .card{
+    height: 60px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 3px solid rgb(8, 8, 8);
+}
+        
+.section3 .b4{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+.section3 .b4 .box4{
+    width: 100%;
+    text-align: center;
+}
+.section3 .b4 .box4 .card{
+    height: 60px;
+    background-color: #fffefe;
+    padding: 10px 10px;
+    border: 3px solid rgb(8, 8, 8);
+}
+.section3 .content2{
+    text-align: center;
+    margin-top: 40px;
+}
+.section3 .content2 .article{
+    width: 101%;
+    text-align: center;
+}
 .section3 .content2 .article .card{
-    height: 445px;
+    height: 443px;
     background-color: #fffefe;
     padding: 10px 10px;
     border: 3px solid rgb(8, 8, 8);
     background-color:  #999898;
 }
-.section3 .content3{
+.section3 .c1{
     text-align: center;
     width: 100%;
-    margin-top: 17px;
-}
-.section3 .content3 .footer{
+    margin-top: 10px;
+    }
+.section3 .c1 .box{
     width: 100%;
     text-align: center;
-}
-.section3 .content3 .footer .card{
-    height: 100px;
+    }
+.section3 .c1 .box .card{
+    margin-right: 29px;
+    height: 60px;
     background-color: #fffefe;
     padding: 10px 10px;
     border: 3px solid rgb(8, 8, 8);
+    }
+.section3 .c2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
+    width: 67%;
+    padding: 10px 10px;
+    height: 230px;
+    border: 3px solid rgb(8, 8, 8);
+    background-color: #ffffff;
+    }
+.section3 .c3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+    width: 31%;
+    padding: 10px 10px;
+    height: 230px;
+    border: 3px solid rgb(8, 8, 8);
+    background-color: #ffffff;
+}
+.section3 .c4{
+    margin-top: 250px;
+    margin-bottom: 10px;
+    float: justify;
+    width: 100%;
+    padding: 10px 10px;
+    height: 60px;
+    border: 3px solid rgb(8, 8, 8);
+    background-color: #ffffff;
+}
+.section3 .c5{
+    margin-top: 33px;
+    margin-bottom: 10px;
+    width: 102%;
+    padding: 10px 10px;
+    height: 100px;
+    border: 3px solid rgb(8, 8, 8);
+    background-color: #ffffff;
+}
+.section3 .last{
+    text-align: center;
+    margin-top: 18px;
+}
+.section3 .last .footer{
+    width: 100%;
+    text-align: center;
+}
+.section3 .last .footer .card{
+    height: 100px;
+    padding: 10px 10px;
+    border: 3px solid rgb(8, 8, 8);
+    background-color:  #ffffff;
 }
 footer{
     margin-top: 1225px;
