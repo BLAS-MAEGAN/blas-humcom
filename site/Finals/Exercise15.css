@@ -1,0 +1,30 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Finals/imgs/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1370px 800px;
+    
+}
+label{
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    width: 150px;
+    display:inline-block;
+    color: #185781;
+    text-shadow: 2px 2px rgb(252, 249, 249);
+    
+}
+h1{
+    margin-left: 10px;
+    font-size: 50px;
+    color: rgb(252, 252, 252);
+    text-shadow: 4px 2px rgb(77, 73, 75);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    margin-left: 15px;
+    font-size: 30px ;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 2px rgb(66, 66, 66);
+}

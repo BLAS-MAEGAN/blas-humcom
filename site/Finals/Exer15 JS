@@ -1,0 +1,18 @@
+document.addEventListener ('DOMContentLoaded' , function(event) {
+
+    document.getElementById("1").placeholder = "Jonah Maegan Rachael Blas";
+    document.getElementById("2").placeholder = "19 ";
+    document.getElementById("3").placeholder = "09151319881 ";
+    document.getElementById("4").placeholder = "meggynegs04@gmail.com ";
+    document.getElementById("5").placeholder = "Military Cut-Off, Baguio City ";
+    document.getElementById("6").placeholder = "Information Technology ";
+    document.getElementById("7").placeholder = "20190547 ";
+    document.getElementById("8").placeholder = "1st Year";
+    document.getElementById("9").placeholder = "IAA1";
+
+});
+  
+
+
+
+
