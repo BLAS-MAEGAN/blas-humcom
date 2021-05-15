@@ -6,11 +6,30 @@
     <meta name="author" content="M. Blas" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <body>
-        <p id="demo" onclick="myFunction()">Click here to change content (innerHTML).</p>
+        <style>
+            body{
+                margin-top: 50px;
+                text-align: center;
+                background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Finals/imgs/2.jpg);
+                background-repeat: no-repeat;
+                background-size: 1410px 700px;
+                color: azure;
+            }
+        </style>
+
+        <p><h1>Click the button to see <b id='demo'>Student's Information.</h1></b></p>
+        <input
+            type="button"
+            name="sub"
+            value="Click here"
+            onclick="gb()"
+        />
         
-        <script>
-            function myFunction() {
-            document.getElementById("demo").innerHTML =  "<p>BLAS, JONAH MAEGAN RACHAEL </p> <p>BACHELOR OF SCIENCE IN INFORMATION AND TECHNOLOGY</p> <p>FIRST YEAR</p> <p>HUMCOM1_IAA1</p>"
+        <script type="text/javascript">
+            function gb() 
+
+            {document.
+            getElementById("demo").innerHTML =  "<p>BLAS, JONAH MAEGAN RACHAEL </p> <p>BACHELOR OF SCIENCE IN INFORMATION AND TECHNOLOGY</p> <p>FIRST YEAR</p> <p>HUMCOM1_IAA1</p>"
             }
         </script>
 
