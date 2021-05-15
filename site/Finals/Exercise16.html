@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Exercise 15</title>
+    <title>Exercise 16</title>
     <meta charset="utf-8" />
     <meta name="author" content="M. Blas" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../">
-    <script src="../Finals"></script>
+
+</head>
+    <style>
+    body{
+        margin-top: 50px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: 1410px 700px;
+        background-color: darkgrey;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    
+    h3{
+        margin-top: 80px;
+    }
+    </style>
 
 <body>
- 
+
+    <h1>Click the button to see Student's Information.</h1>
+    <button onclick="funCall();">Click Here</button>
+
+    <p id="demo"></p>
+
+    <h3>Click the button to display todays the day of the week.</h3>
+    <button onclick="myFunction()">Click here</button>
+
+    <p id="demo"></p>
+
+
+    <script>
+        function funCall() {
+        var FirstName = "JONAH MAEGAN RACHAEL";
+            LastName = "BLAS";
+             Age = "19";
+            console.log("JONAH MAEGAN RACHAEL\nBLAS\n19");
+        }
+
+        function myFunction() {
+            var d = new Date();
+            var weekday = new Array(7);
+            weekday[0] = "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thursday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+
+            console.log(new Date().toLocaleString('en-us', { weekday: 'long'})); 
+        }
+    
+    </script>
+
+</body>
+</html>
